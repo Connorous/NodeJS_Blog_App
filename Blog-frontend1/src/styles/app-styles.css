@@ -1,0 +1,159 @@
+section.top-section {
+  background-color: #355763;
+  width: 100%;
+}
+
+h1.top {
+  color: white;
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+div.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 10px;
+}
+
+div.blog-authors {
+  display: block;
+  width: 5%;
+  padding-left: 5%;
+  padding-right: 10%;
+  gap: 10px;
+}
+
+div.comment {
+  font-size: small;
+  background-color: gainsboro;
+  border-radius: 5px;
+  padding: 0.5%;
+}
+
+div.blog-posts {
+  display: block;
+  width: 70%;
+  flex-shrink: 2;
+  padding-left: 5%;
+  padding-right: 5%;
+  gap: 10px;
+  text-align: justify;
+}
+
+div.blog-post {
+  outline: gray;
+  outline-width: 0.5%;
+  outline-style: solid;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-radius: 5px;
+  padding-bottom: 0%;
+}
+
+div.top-bar {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20%;
+  margin: auto;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-shrink: 1;
+}
+
+div.top-bar-right {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 3%;
+  margin: auto;
+  align-items: center;
+}
+
+div.cart {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+
+div.top-bar-left {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 3%;
+  margin: auto;
+  align-items: center;
+}
+
+img.icon {
+  width: 10%;
+  height: 10%;
+}
+
+a.top {
+  font-weight: 500;
+  color: white;
+  text-decoration: inherit;
+}
+a.top:hover {
+  color: lightcyan;
+}
+
+.home-item-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  justify-self: center;
+  overflow-y: initial;
+  grid-column-gap: 5%;
+  grid-row-gap: 7%;
+  padding: 5%;
+  width: 50%;
+}
+
+.home {
+  justify-self: center;
+  height: 100%;
+  margin: auto;
+}
+
+div.flex-container-left {
+  display: flex;
+  justify-content: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 40px;
+  align-items: center;
+  overflow: auto;
+}
+
+div.flex-container-left > button {
+  height: 50%;
+}
+
+div.flex-container-left > div {
+  width: 400%;
+  height: 400%;
+  overflow: visible;
+}
+
+div.flex-container-left > div > textarea {
+  width: 100%;
+  height: 400%;
+}
+
+div.flex-container-btns {
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+}
+
+textarea.editarea {
+  width: 85%;
+  height: 400%;
+}
